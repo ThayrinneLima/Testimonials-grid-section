@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.card{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Barlow Semi Condensed';
+}
+
+.left{
+    width: 73%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cima{
+    width: 100%;
+    height: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Cardcima1{
+    width: 66%;
+    height: 100%;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position:top left 400px ;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    row-gap: 8px;
+}
+.avatarCardcima1{    
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 8px;
+    color: hsl(0, 0%, 81%);
+}
+.CardDaniel{
+    width: 10%;
+    
+}
+.imgDaniel{
+    width: 100%;
+    border-radius: 100px;
+    border:2px solid hsla(0, 0%, 81%, 0.508);
+}
+
+.verified{
+    color: hsla(0, 0%, 81%, 0.508);
+}
+
+.titleCardcima1{
+    margin-bottom: 5px;
+    width: 95%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 16pt;
+    color: hsl(0, 0%, 100%);
+    padding: 8px;
+}
+
+.textCardcima1{
+    
+    height: 100px;
+    width: 90%;
+    font-weight: 500;
+    font-size: 10pt;
+    color: hsla(0, 0%, 81%, 0.673);
+    padding: 8px;
+}
+
+.Cardcima2{
+    width: 30%;
+    height: 100%;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    row-gap: 8px;
+
+}
+.avatarCardcima2{    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 8px;
+    color: hsl(0, 0%, 81%);
+    
+}
+.CardJonathan{
+    width: 20%;
+    
+}
+.imgJonathan{
+    width: 100%;
+    border-radius: 100px;
+    border:2px solid hsla(0, 0%, 81%, 0.508);
+}
+
+.verified2{
+    color: hsla(0, 0%, 81%, 0.508);
+}
+
+.titleCardcima2{
+    margin-bottom: 5px;
+    width: 95%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 16pt;
+    color: hsl(0, 0%, 100%);
+    padding: 8px;
+}
+
+.textCardcima2{
+    
+    height: 100px;
+    width: 85%;
+    font-weight: 500;
+    font-size: 10pt;
+    color: hsla(0, 0%, 81%, 0.673);
+    padding: 8px;
+}
+
+.baixo{
+    width: 100%;
+    height: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Cardbaixo{
+    width: 30%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    row-gap: 8px;
+}
+.avatarCardbaixo1{    
+    width: 100%;
+    height: 50px;
+    display: flex;    
+    align-items: center;
+    column-gap: 8px;
+    padding: 8px;
+    color: hsl(219, 29%, 14%)
+    
+}
+.CardJeanette{
+    width: 20%;
+    
+}
+.imgJeanette{
+    width: 100%;
+    border-radius: 100px;
+    border:2px solid hsla(0, 0%, 81%, 0.508);
+}
+
+.verified3{
+    color:hsla(217, 19%, 35%, 0.507);
+}
+
+.titleCardbaixo1{
+    margin-bottom: 5px;
+    width: 85%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 16pt;
+    color:hsla(217, 30%, 14%, 0.869);
+    padding: 8px;
+}
+
+.textCardbaixo1{
+    margin-top: 8px;
+    height: 100px;
+    width: 85%;
+    font-weight: 500;
+    font-size: 10pt;
+    color: hsla(217, 19%, 35%, 0.714);
+    padding: 8px;
+}
+
+.Cardbaixo2{
+    width: 66%;
+    height: 100%;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    row-gap: 8px;
+}
+.avatarCardbaixo2{    
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 8px;
+    color: hsl(0, 0%, 81%);
+}
+.CardPatrick{
+    width: 10%;
+    
+}
+.imgPatrick{
+    width: 100%;
+    border-radius: 100px;
+    border:2px solid hsl(263, 55%, 52%);;
+}
+
+.verified4{
+    color: hsla(0, 0%, 81%, 0.508);
+}
+
+.titleCardbaixo2{
+    margin-bottom: 5px;
+    width: 95%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 16pt;
+    color: hsl(0, 0%, 100%);
+    padding: 8px;
+}
+
+.textCardbaixo2{
+    margin-top: 8px;
+    height: 100px;
+    width: 90%;
+    font-weight: 500;
+    font-size: 10pt;
+    color: hsla(0, 0%, 81%, 0.673);
+    padding: 8px;
+}
+
+
+.rigth{
+    width: 25%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    row-gap: 8px;
+}
+
+.avatarRigth{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 8px;
+    color: hsl(219, 29%, 14%)
+}
+
+.CardKira{
+    width: 20%;
+}
+.imgKira{
+    width: 90%;
+    border-radius: 100px;
+}
+
+.verifiedRigth{
+    color:hsla(217, 19%, 35%, 0.507);
+}
+
+.titleRigth{
+    margin-bottom: 5px;
+    width: 90%;
+    height: 70px;
+    font-weight: 600;
+    font-size: 16pt;
+    color: hsla(217, 30%, 14%, 0.869);
+    padding: 8px;
+}
+
+.textRigth{
+    height: 400px;
+    width: 85%;
+    font-weight: 500;
+    font-size: 11pt;
+    color: hsla(217, 19%, 35%, 0.714);
+    padding: 8px;
+
+}
+
+.attribution{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 8px;
+    font-size: 12px; 
+    text-align: center; 
+    color: hsl(263, 55%, 52%);;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 700;
+}
+
+
